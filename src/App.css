@@ -1,38 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .App {
-  text-align: center;
+    padding-top: 4rem;
+    min-height: 100vh;
+    font-family: "Raleway",sans-serif;
+    line-height: .8;
+    background-color: #dcdcdc;
+    color: grey;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Dashboard {
+    background-color: #fff;
+    margin: auto;
+    width: 800px;
+    line-height: .8;
+    border-radius: 15px;
+    min-height: 400px;
+    max-height: 600px;
+    box-shadow: 0 4px 4px grey;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.student-container {
+    min-height: 400px;
+    max-height: 600px;
+    border-radius: 15px;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 4px grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-title {
+    font-weight: 900;
+    text-transform: uppercase;
 }
-
-.App-link {
-  color: #61dafb;
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-input {
+    width: 100%;
+    text-align: center;
+}
+.search-input input {
+    width: 95%;
+    padding: 15px 0;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 1.5rem;
+    font-family: "Raleway",sans-serif;
+    outline: none;
+}
+.enter-tag input {
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 1rem;
+    font-family: "Raleway",sans-serif;
 }
